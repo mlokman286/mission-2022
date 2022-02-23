@@ -34,6 +34,9 @@ h2{
     font-size:2.5em;
     text-align: center;
 }
+h3{
+    font-size:2em;
+}
 #mission-card{
     display:flex;
     margin:0px 10%;
@@ -54,4 +57,16 @@ h2{
 }
 .card img{
     width:200px;
+}
+footer{
+    background-color: black;
+    color:white;
+    text-align: center;
+    padding:1% 0px;
+}
+footer h3{
+    font-family: 'Lobster', cursive;
+}
+footer p{
+    color:rgba(255, 255, 255, 0.5)
 }
