@@ -19,8 +19,7 @@ h1{
 }
 section div a {
     text-decoration: none;
-    color:rgb(235, 36, 129);
-    background-color:cyan;
+    background-color:chartreuse;
     padding:10px 10px;
     border-radius: 5px;
 }
@@ -37,7 +36,7 @@ h2{
 h3{
     font-size:2em;
 }
-#mission-card{
+.mission-card{
     display:flex;
     margin:0px 10%;
 }
@@ -57,6 +56,16 @@ h3{
 }
 .card img{
     width:200px;
+}
+.extra-card{
+    box-shadow:0px 2px 2px gray;
+    margin-bottom: 2%;
+}
+.extra-card h4{
+    text-align: center;
+}
+.extra-card img{
+    width:100%;
 }
 footer{
     background-color: black;
